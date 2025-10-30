@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez comment limiter les notifications (push, email) pour réduire la consommation d'énergie et améliorer la satisfaction.">
+    <meta name="keywords" content="écoconception, UX design, notifications, push notifications, engagement utilisateur">
+    <meta name="author" content="Starter Kit Écoconception">
+    <title>Limiter les Notifications - Écoconception UX - Starter Kit</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header role="banner">
+        <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+            <div class="nav-container">
+                <a href="../index.html" class="logo-link" title="Retour à l'accueil">
+                    <img src="../assets/images/logo.svg" alt="Starter Kit de l'Écoconception Numérique - Accueil" class="logo" width="200" height="40">
+                </a>
+                
+                <button class="nav-toggle" aria-label="Menu de navigation" aria-expanded="false" aria-controls="nav-links">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-fondamentaux">
+                            Fondamentaux
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-fondamentaux" aria-label="Sous-menu Fondamentaux">
+                            <li><a href="../fondamentaux/definition.html">Définition</a></li>
+                            <li><a href="../fondamentaux/pourquoi.html">Pourquoi Écoconcevoir ?</a></li>
+                            <li><a href="../fondamentaux/cycle-de-vie.html">Cycle de Vie</a></li>
+                            <li><a href="../fondamentaux/roles.html">Rôles de l'Équipe</a></li>
+                            <li><a href="../fondamentaux/exemples.html">Exemples</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-pratiques-ux" aria-current="page">
+                            Pratiques UX
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-pratiques-ux" aria-label="Sous-menu Pratiques UX">
+                            <li><a href="fonctionnalites-essentielles.html">Fonctionnalités Essentielles</a></li>
+                            <li><a href="profils-utilisateurs.html">Profils Utilisateurs</a></li>
+                            <li><a href="mobile-first.html">Mobile First</a></li>
+                            <li><a href="responsive.html">Responsive Design</a></li>
+                            <li><a href="parcours-simple.html">Parcours Simple</a></li>
+                            <li><a href="recherche-interne.html">Recherche Interne</a></li>
+                            <li><a href="notifications.html" aria-current="page">Notifications</a></li>
+                            <li><a href="carrousels.html">Carrousels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-pratiques-ui">
+                            Pratiques UI & Intégration
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-pratiques-ui" aria-label="Sous-menu Pratiques UI">
+                            <li><a href="../pratiques-ui/lazy-loading.html">Lazy Loading</a></li>
+                            <li><a href="../pratiques-ui/defilement-infini.html">Défilement Infini</a></li>
+                            <li><a href="../pratiques-ui/optimisation-medias.html">Optimisation des Médias</a></li>
+                            <li><a href="../pratiques-ui/lecture-video.html">Lecture Vidéo</a></li>
+                            <li><a href="../pratiques-ui/dimensions-images.html">Dimensions des Images</a></li>
+                            <li><a href="../pratiques-ui/formats-images.html">Formats d'Images</a></li>
+                            <li><a href="../pratiques-ui/webfonts.html">Webfonts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-demarche-outils">
+                            Démarche & Outils
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-demarche-outils" aria-label="Sous-menu Démarche et Outils">
+                            <li><a href="../demarche-outils/approches.html">Approches</a></li>
+                            <li><a href="../demarche-outils/processus.html">Processus</a></li>
+                            <li><a href="../demarche-outils/outils.html">Outils</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        
+
+        <section class="content-section">
+            <div class="container">
+                <h1>Limiter les Notifications</h1>
+                <p class="section-intro">Limiter la consommation de ressources et améliorer la satisfaction utilisateur en ne notifiant que lorsque c'est pertinent, attendu et apporte une réelle valeur.</p>
+            </div>
+        </section>
+
+        <section class="objectives" aria-labelledby="objectif-title">
+            <div class="container">
+                <div class="radar-content">
+                    <div class="radar-explanation">
+                        <h2 id="objectif-title">Objectif : Pertinence et Sobriété</h2>
+                        <p>L'envoi d'une notification (push, email, etc.) doit répondre à un objectif précis. Limiter leur nombre et leur fréquence permet de réduire la consommation d'énergie des serveurs (envoi) et des terminaux des utilisateurs (réception).</p>
+                        
+                        <p style="margin-top: 1rem;">C'est aussi un enjeu majeur de satisfaction : des notifications non sollicitées ou inutiles frustrent l'utilisateur et peuvent le pousser à se désengager du service.</p>
+                    </div>
+                    
+                    <div class="radar-visual" style="background-color: #fef2f2; border-left: 4px solid #e74c3c; display: flex; align-items: center; justify-content: center; padding: 3rem;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 4rem; font-weight: 700; color: #e74c3c; line-height: 1; margin-bottom: 1rem;">
+                                71<span style="font-size: 2.5rem;">%</span>
+                            </div>
+                            <p style="font-size: 1.1rem; line-height: 1.5; color: #1f2937; margin: 0;">
+                                des utilisateurs désinstallent leurs applications à cause de notifications abusives.
+                            </p>
+                            <p style="margin-top: 1rem; font-size: 0.9rem; color: #6b7280;">
+                                <small>(Source: Appiterate survey)</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="navigation-section" aria-labelledby="cadrage-title">
+            <div class="container">
+                <h2 id="cadrage-title">Comment bien cadrer le besoin ?</h2>
+                <p style="max-width: 900px; margin: 0 auto 2rem; text-align: center;">Lors d'un atelier spécifique, déterminez avec le métier, le PO et (si possible) les utilisateurs, les besoins réels en termes de notifications :</p>
+                
+                <ul style="list-style: none; padding-left: 0; max-width: 900px; margin: 2rem auto;">
+                    <li style="padding-left: 2rem; position: relative; margin-bottom: 1.5rem; line-height: 1.6;">
+                        <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                        <strong>Pertinence :</strong> Quel est le nombre acceptable de notifications ? Sont-elles critiques (ex: rappel de RDV) ou informatives ?
+                    </li>
+                    <li style="padding-left: 2rem; position: relative; margin-bottom: 1.5rem; line-height: 1.6;">
+                        <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                        <strong>Fréquence :</strong> À quelle fréquence maximale l'utilisateur accepte-t-il d'être notifié ?
+                    </li>
+                    <li style="padding-left: 2rem; position: relative; margin-bottom: 1.5rem; line-height: 1.6;">
+                        <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                        <strong>Format :</strong> Le format (email, push, in-app) est-il le plus pertinent et le plus adapté au message ?
+                    </li>
+                    <li style="padding-left: 2rem; position: relative; margin-bottom: 1.5rem; line-height: 1.6;">
+                        <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                        <strong>Horaires :</strong> Quels sont les horaires d'envoi appropriés pour ne pas être intrusif ?
+                    </li>
+                    <li style="padding-left: 2rem; position: relative; margin-bottom: 1.5rem; line-height: 1.6;">
+                        <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                        <strong>Contrôle :</strong> L'utilisateur peut-il facilement et granularitairement gérer ses préférences de notification ?
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="cta-section" aria-labelledby="navigation-title">
+            <div class="container">
+                <h2 id="navigation-title" class="visually-hidden">Navigation entre les pages</h2>
+                <div class="cta-buttons" style="justify-content: space-between; max-width: 900px; margin: 0 auto;">
+                    <a href="recherche-interne.html" class="btn-secondary">
+                        ← Page Précédente : Moteur de Recherche
+                    </a>
+                    <a href="carrousels.html" class="btn-primary">
+                        Page Suivante : Limiter les Carrousels →
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>Ce Starter Kit est une ressource générique et open source pour promouvoir l'écoconception numérique auprès des designers UX/UI et des intégrateurs.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contribuer</h3>
+                <p>Rejoignez-nous sur GitHub pour améliorer ce guide et partager vos bonnes pratiques.</p>
+                <a href="https://github.com/France-Travail" class="github-link" rel="external noopener noreferrer">
+                    Contribuer sur GitHub
+                    <span class="visually-hidden">(nouvelle fenêtre)</span>
+                </a>
+            </div>
+            <div class="footer-section">
+                <h3>Ressources</h3>
+                <nav aria-label="Liens ressources">
+                    <ul>
+                        <li><a href="../demarche-outils/outils.html">Outils et ressources</a></li>
+                        <li><a href="https://www.greenit.fr/" rel="external noopener noreferrer">GreenIT.fr <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://collectif.greenit.fr/" rel="external noopener noreferrer">Collectif Green IT <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://ecoresponsable.numerique.gouv.fr/" rel="external noopener noreferrer">MiNumEco <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 – Starter Kit Écoconception Numérique – <br>
+Contenus publiés sous licence <br>
+  <br>
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+  <br>
+  .</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

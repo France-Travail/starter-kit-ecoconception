@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez comment optimiser les parcours utilisateurs pour réduire l'empreinte carbone, avec un exemple concret.">
+    <meta name="keywords" content="écoconception, UX design, parcours utilisateur, optimisation, red routes">
+    <meta name="author" content="Starter Kit Écoconception">
+    <title>Parcours Simple et Efficace - Écoconception UX - Starter Kit</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header role="banner">
+        <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+            <div class="nav-container">
+                <a href="../index.html" class="logo-link" title="Retour à l'accueil">
+                    <img src="../assets/images/logo.svg" alt="Starter Kit de l'Écoconception Numérique - Accueil" class="logo" width="200" height="40">
+                </a>
+                
+                <button class="nav-toggle" aria-label="Menu de navigation" aria-expanded="false" aria-controls="nav-links">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-fondamentaux">
+                            Fondamentaux
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-fondamentaux" aria-label="Sous-menu Fondamentaux">
+                            <li><a href="../fondamentaux/definition.html">Définition</a></li>
+                            <li><a href="../fondamentaux/pourquoi.html">Pourquoi Écoconcevoir ?</a></li>
+                            <li><a href="../fondamentaux/cycle-de-vie.html">Cycle de Vie</a></li>
+                            <li><a href="../fondamentaux/roles.html">Rôles de l'Équipe</a></li>
+                            <li><a href="../fondamentaux/exemples.html">Exemples</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-pratiques-ux" aria-current="page">
+                            Pratiques UX
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-pratiques-ux" aria-label="Sous-menu Pratiques UX">
+                            <li><a href="fonctionnalites-essentielles.html">Fonctionnalités Essentielles</a></li>
+                            <li><a href="profils-utilisateurs.html">Profils Utilisateurs</a></li>
+                            <li><a href="mobile-first.html">Mobile First</a></li>
+                            <li><a href="responsive.html">Responsive Design</a></li>
+                            <li><a href="parcours-simple.html" aria-current="page">Parcours Simple</a></li>
+                            <li><a href="recherche-interne.html">Recherche Interne</a></li>
+                            <li><a href="notifications.html">Notifications</a></li>
+                            <li><a href="carrousels.html">Carrousels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-pratiques-ui">
+                            Pratiques UI & Intégration
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-pratiques-ui" aria-label="Sous-menu Pratiques UI">
+                            <li><a href="../pratiques-ui/lazy-loading.html">Lazy Loading</a></li>
+                            <li><a href="../pratiques-ui/defilement-infini.html">Défilement Infini</a></li>
+                            <li><a href="../pratiques-ui/optimisation-medias.html">Optimisation des Médias</a></li>
+                            <li><a href="../pratiques-ui/lecture-video.html">Lecture Vidéo</a></li>
+                            <li><a href="../pratiques-ui/dimensions-images.html">Dimensions des Images</a></li>
+                            <li><a href="../pratiques-ui/formats-images.html">Formats d'Images</a></li>
+                            <li><a href="../pratiques-ui/webfonts.html">Webfonts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-demarche-outils">
+                            Démarche & Outils
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-demarche-outils" aria-label="Sous-menu Démarche et Outils">
+                            <li><a href="../demarche-outils/approches.html">Approches</a></li>
+                            <li><a href="../demarche-outils/processus.html">Processus</a></li>
+                            <li><a href="../demarche-outils/outils.html">Outils</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        
+
+        <section class="content-section">
+            <div class="container">
+                <h1>Concevoir un Parcours Simple et Efficace</h1>
+                <p class="section-intro">Proposer des parcours optimisés pour réduire leur poids et leurs émissions de gaz à effet de serre, tout en garantissant une réponse rapide et pertinente aux besoins de l'utilisateur.</p>
+            </div>
+        </section>
+
+        <section class="objectives" aria-labelledby="impact-title">
+            <div class="container">
+                <h2 id="impact-title" style="text-align: center; margin-bottom: 2rem;">L'impact d'un parcours optimisé</h2>
+                <p class="section-intro">Dans le cadre d'un produit existant, analyser les parcours pour privilégier ceux les plus utilisés et les optimiser est un levier majeur. Le gain environnemental est réel, comme le montre cet exemple pour une recherche d'emploi.</p>
+                
+                <div class="nav-grid" style="align-items: start; margin-top: 3rem;">
+                    <article class="nav-card" style="border: 2px solid var(--secondary-color);">
+                        <span class="icon" style="font-size: 3rem; color: var(--secondary-color);">✓</span>
+                        <h3>Parcours Optimisé</h3>
+                        <p>L'information est accessible rapidement, limitant le nombre de pages et de requêtes.</p>
+                        
+                        <img src="../assets/images/exemple-parcours-optimise.webp" alt="Exemple de parcours de recherche d'emploi optimisé." style="border-radius: 8px; margin-top: 1.5rem; width: 100%; height: auto;">
+                        
+                        <ul style="list-style: none; padding-left: 0; margin-top: 1.5rem;">
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6;">
+                                <span style="position: absolute; left: 0; color: var(--secondary-color); font-weight: bold;">✓</span>
+                                3 étapes
+                            </li>
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6;">
+                                <span style="position: absolute; left: 0; color: var(--secondary-color); font-weight: bold;">✓</span>
+                                2 pages
+                            </li>
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6; font-weight: 600; background: #d1fae5; padding: 0.5rem 0.5rem 0.5rem 2rem; border-radius: 4px; margin-top: 1rem;">
+                                <span style="position: absolute; left: 0.5rem; color: var(--secondary-dark); font-weight: bold;">✓</span>
+                                Résultat : 5 g CO2eq
+                            </li>
+                        </ul>
+                    </article>
+                    
+                    <article class="nav-card" style="border: 2px solid #e74c3c;">
+                        <span class="icon" style="font-size: 3rem; color: #e74c3c;">✗</span>
+                        <h3>Parcours Lourd</h3>
+                        <p>Le parcours nécessite plus d'actions et de chargements de pages pour arriver au même résultat.</p>
+                        
+                        <img src="../assets/images/exemple-parcours-lourd.webp" alt="Exemple de parcours de recherche d'emploi moins optimisé." style="border-radius: 8px; margin-top: 1.5rem; width: 100%; height: auto;">
+                        
+                        <ul style="list-style: none; padding-left: 0; margin-top: 1.5rem;">
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6;">
+                                <span style="position: absolute; left: 0; color: #e74c3c; font-weight: bold;">✗</span>
+                                4 étapes
+                            </li>
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6;">
+                                <span style="position: absolute; left: 0; color: #e74c3c; font-weight: bold;">✗</span>
+                                4 pages
+                            </li>
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6; font-weight: 600; background: #fecaca; padding: 0.5rem 0.5rem 0.5rem 2rem; border-radius: 4px; margin-top: 1rem;">
+                                <span style="position: absolute; left: 0.5rem; color: #991b1b; font-weight: bold;">✗</span>
+                                Résultat : 8,3 g CO2eq
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="navigation-section" aria-labelledby="recommandations-title">
+            <div class="container">
+                <h2 id="recommandations-title">Recommandations Clés</h2>
+                
+                <ul style="list-style: none; padding-left: 0; max-width: 900px; margin: 2rem auto;">
+                    <li style="padding-left: 2rem; position: relative; margin-bottom: 1.5rem; line-height: 1.6;">
+                        <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                        <strong>Pour un nouveau service :</strong> Construire le parcours avec pour objectif qu'il ne dépasse pas 3 étapes et utiliser les outils de la démarche produit (Story mapping, etc.).
+                    </li>
+                    <li style="padding-left: 2rem; position: relative; margin-bottom: 1.5rem; line-height: 1.6;">
+                        <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                        <strong>Pour un service existant :</strong> Analyser les parcours les plus fréquents ("Red Routes") et les optimiser en priorité.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="cta-section" aria-labelledby="navigation-title">
+            <div class="container">
+                <h2 id="navigation-title" class="visually-hidden">Navigation entre les pages</h2>
+                <div class="cta-buttons" style="justify-content: space-between; max-width: 900px; margin: 0 auto;">
+                    <a href="responsive.html" class="btn-secondary">
+                        ← Page Précédente : Responsive Design
+                    </a>
+                    <a href="recherche-interne.html" class="btn-primary">
+                        Page Suivante : Moteur de Recherche →
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>Ce Starter Kit est une ressource générique et open source pour promouvoir l'écoconception numérique auprès des designers UX/UI et des intégrateurs.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contribuer</h3>
+                <p>Rejoignez-nous sur GitHub pour améliorer ce guide et partager vos bonnes pratiques.</p>
+                <a href="https://github.com/France-Travail" class="github-link" rel="external noopener noreferrer">
+                    Contribuer sur GitHub
+                    <span class="visually-hidden">(nouvelle fenêtre)</span>
+                </a>
+            </div>
+            <div class="footer-section">
+                <h3>Ressources</h3>
+                <nav aria-label="Liens ressources">
+                    <ul>
+                        <li><a href="../demarche-outils/outils.html">Outils et ressources</a></li>
+                        <li><a href="https://www.greenit.fr/" rel="external noopener noreferrer">GreenIT.fr <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://collectif.greenit.fr/" rel="external noopener noreferrer">Collectif Green IT <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://ecoresponsable.numerique.gouv.fr/" rel="external noopener noreferrer">MiNumEco <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 – Starter Kit Écoconception Numérique – <br>
+Contenus publiés sous licence <br>
+  <br>
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+  <br>
+  .</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

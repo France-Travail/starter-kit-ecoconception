@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Réduisez le poids de vos pages en limitant le nombre de polices (webfonts) et en utilisant les formats optimisés WOFF2.">
+    <meta name="keywords" content="écoconception, webfonts, polices web, WOFF2, optimisation, numérique responsable">
+    <meta name="author" content="France Travail">
+    <title>Limiter les Webfonts - Écoconception UI - Starter Kit</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header role="banner">
+        <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+            <div class="nav-container">
+                <a href="../index.html" class="logo-link" title="Retour à l'accueil">
+                    <img src="../assets/images/logo.svg" alt="Conception Responsable de Services Numériques - Accueil" class="logo" width="200" height="40">
+                </a>
+                
+                <button class="nav-toggle" aria-label="Menu de navigation" aria-expanded="false" aria-controls="nav-links">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-impacts">
+                            Impacts
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-impacts" aria-label="Sous-menu Impacts">
+                            <li><a href="../impacts/empreinte-environnementale.html">Empreinte environnementale</a></li>
+                            <li><a href="../impacts/empreinte-societale.html">Empreinte sociétale</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-principes">
+                            Principes
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-principes" aria-label="Sous-menu Principes">
+                            <li><a href="../principes/definition.html">Définition</a></li>
+                            <li><a href="../principes/benefices.html">Bénéfices</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-bonnes-pratiques">
+                            Bonnes Pratiques
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-bonnes-pratiques" aria-label="Sous-menu Bonnes Pratiques">
+                            <li><a href="../bonnes-pratiques/strategie-pilotage.html">Stratégie & Pilotage</a></li>
+                            <li><a href="../bonnes-pratiques/ux.html">UX Design</a></li>
+                            <li><a href="../bonnes-pratiques/ui.html">UI Design</a></li>
+                            <li><a href="../bonnes-pratiques/developpement.html">Développement</a></li>
+                            <li><a href="../bonnes-pratiques/architecture.html">Architecture</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-mise-en-oeuvre">
+                            Mise en Œuvre
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-mise-en-oeuvre" aria-label="Sous-menu Mise en Œuvre">
+                            <li><a href="../mise-en-oeuvre/lancer-demarche.html">Lancer la démarche</a></li>
+                            <li><a href="../mise-en-oeuvre/outils-ressources.html">Outils & Ressources</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Section 1 : Titre et Introduction -->
+        <section class="hero" aria-labelledby="page-title">
+            <div class="hero-content">
+                
+                <h1 id="page-title">Limiter les Webfonts et les Optimiser</h1>
+                <p class="section-intro">L'objectif est de limiter le nombre de fichiers à charger lors de l'ouverture de la page pour réduire le poids total et les émissions du service.</p>
+            </div>
+        </section>
+
+        <!-- Section 2 : Le Principe -->
+        <section class="content-section" aria-labelledby="principe-title">
+            <div class="container">
+                <div class="radar-content">
+                    <!-- Partie Visuelle -->
+                    <div class="radar-visual">
+                        <figure style="margin: 0;">
+                            <img src="../assets/images/brett-jordan-M9NVqELEtHU-unsplash.webp" alt="Illustration de différentes polices de caractères (Aa, Bb, Cc)." width="300" height="300" style="border-radius: 4px;">
+                            <figcaption style="font-size: 0.75rem; color: #666; margin-top: 0.5rem; text-align: center;">
+                                Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=your_app_name&utm_medium=referral" target="_blank" rel="noopener noreferrer" style="color: #666; text-decoration: underline;">Brett Jordan</a> on <a href="https://unsplash.com?utm_source=your_app_name&utm_medium=referral" target="_blank" rel="noopener noreferrer" style="color: #666; text-decoration: underline;">Unsplash</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
+                    <!-- Partie Explication -->
+                    <div class="radar-explanation">
+                        <h2 id="principe-title">Objectif : Réduire les requêtes et le poids</h2>
+                        <p>Les polices (webfonts) sont hébergées sur un serveur et doivent être téléchargées par le navigateur lors de l'affichage de la page.</p>
+                        <p>Chaque webfont possède plusieurs variantes (ex: standard, light, bold, italic...). <strong>Chaque variante est un fichier séparé à télécharger.</strong></p>
+                        <p class="highlight-row" style="padding: var(--spacing-md); border-radius: var(--border-radius);">Réduire le nombre de polices et de variantes utilisées permet de limiter drastiquement le nombre de fichiers à télécharger et le poids de la page.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 : Recommandations Clés -->
+        <section class="content-section" aria-labelledby="recommandations-title">
+            <div class="container">
+                <h2 id="recommandations-title" style="margin-top: var(--spacing-2xl);">Comment faire ?</h2>
+                <ul class="checklist" style="margin-top: var(--spacing-md);">
+                    <li><strong>Limiter le nombre :</strong> Utiliser <strong>2 polices (webfonts) au maximum</strong> si possible (par exemple, une pour les titres, une pour le texte).</li>
+                    <li><strong>Utiliser les formats optimisés :</strong> Privilégier les formats <strong><code>WOFF2</code></strong> (meilleure compression) et <code>WOFF</code>, qui sont faits pour le web, plutôt que <code>TTF</code> ou <code>OTF</code>.</li>
+                    <li><strong>Utiliser les polices système :</strong> Pour une performance maximale, utiliser les polices déjà installées sur le système de l'utilisateur (ex: Arial, Verdana, ou la pile de polices système de votre <code>style.css</code>).</li>
+                    <li><strong>S'appuyer sur un Design System :</strong> Utiliser les polices définies par le Design System de votre organisation garantit la cohérence et évite d'ajouter de nouvelles polices inutiles.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 4 : Navigation de Page -->
+        <section class="navigation-section" aria-label="Navigation entre les pages">
+            <div class="container">
+                <div class="page-navigation">
+                    <a href="formats-images.html" class="btn-secondary">← Page Précédente : Formats d'Image Optimisés</a>
+                    <a href="../demarche-outils/index.html" class="btn-primary">Section Suivante : Démarche & Outils →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>Ce guide pratique de conception responsable est un projet open source porté par France Travail pour promouvoir des pratiques numériques plus durables.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contribuer</h3>
+                <p>Rejoignez-nous sur GitHub pour améliorer ce guide et partager vos bonnes pratiques.</p>
+                <a href="https://github.com/France-Travail" class="github-link" rel="external noopener noreferrer">
+                    Contribuer sur GitHub
+                    <span class="visually-hidden">(nouvelle fenêtre)</span>
+                </a>
+            </div>
+            <div class="footer-section">
+                <h3>Ressources</h3>
+                <nav aria-label="Liens ressources">
+                    <ul>
+                        <li><a href="../mise-en-oeuvre/outils-ressources.html">Outils et ressources</a></li>
+                        <li><a href="https://www.greenit.fr/" rel="external noopener noreferrer">GreenIT.fr <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://collectif.greenit.fr/" rel="external noopener noreferrer">Collectif Green IT <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 – Starter Kit Écoconception Numérique – <br>
+Contenus publiés sous licence <br>
+  <br>
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+  <br>
+  .</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les bonnes pratiques d'écoconception pour les UI Designers : optimisation des images, webfonts, vidéos et plus.">
+    <meta name="keywords" content="écoconception, UI design, optimisation images, webfonts, lazy loading, vidéo">
+    <meta name="author" content="Starter Kit Écoconception">
+    <title>Pratiques UI & Écoconception - Starter Kit</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header role="banner">
+        <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+            <div class="nav-container">
+                <a href="../index.html" class="logo-link" title="Retour à l'accueil">
+                    <img src="../assets/images/logo.svg" alt="Starter Kit de l'Écoconception Numérique - Accueil" class="logo" width="200" height="40">
+                </a>
+                
+                <button class="nav-toggle" aria-label="Menu de navigation" aria-expanded="false" aria-controls="nav-links">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-fondamentaux">
+                            Fondamentaux
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-fondamentaux" aria-label="Sous-menu Fondamentaux">
+                            <li><a href="../fondamentaux/definition.html">Définition</a></li>
+                            <li><a href="../fondamentaux/pourquoi.html">Pourquoi Écoconcevoir ?</a></li>
+                            <li><a href="../fondamentaux/cycle-de-vie.html">Cycle de Vie</a></li>
+                            <li><a href="../fondamentaux/roles.html">Rôles de l'Équipe</a></li>
+                            <li><a href="../fondamentaux/exemples.html">Exemples</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-pratiques-ux">
+                            Pratiques UX
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-pratiques-ux" aria-label="Sous-menu Pratiques UX">
+                            <li><a href="../pratiques-ux/fonctionnalites-essentielles.html">Fonctionnalités Essentielles</a></li>
+                            <li><a href="../pratiques-ux/profils-utilisateurs.html">Profils Utilisateurs</a></li>
+                            <li><a href="../pratiques-ux/mobile-first.html">Mobile First</a></li>
+                            <li><a href="../pratiques-ux/responsive.html">Responsive Design</a></li>
+                            <li><a href="../pratiques-ux/parcours-simple.html">Parcours Simple</a></li>
+                            <li><a href="../pratiques-ux/recherche-interne.html">Recherche Interne</a></li>
+                            <li><a href="../pratiques-ux/notifications.html">Notifications</a></li>
+                            <li><a href="../pratiques-ux/carrousels.html">Carrousels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-pratiques-ui" aria-current="page">
+                            Pratiques UI & Intégration
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-pratiques-ui" aria-label="Sous-menu Pratiques UI">
+                            <li><a href="lazy-loading.html">Lazy Loading</a></li>
+                            <li><a href="defilement-infini.html">Défilement Infini</a></li>
+                            <li><a href="optimisation-medias.html">Optimisation des Médias</a></li>
+                            <li><a href="lecture-video.html">Lecture Vidéo</a></li>
+                            <li><a href="dimensions-images.html">Dimensions des Images</a></li>
+                            <li><a href="formats-images.html">Formats d'Images</a></li>
+                            <li><a href="webfonts.html">Webfonts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-demarche-outils">
+                            Démarche & Outils
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-demarche-outils" aria-label="Sous-menu Démarche et Outils">
+                            <li><a href="../demarche-outils/approches.html">Approches</a></li>
+                            <li><a href="../demarche-outils/processus.html">Processus</a></li>
+                            <li><a href="../demarche-outils/outils.html">Outils</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        
+
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title">Pratiques UI & Écoconception</h1>
+                <p class="hero-subtitle">De la conception des maquettes à l'optimisation des médias, l'UI Designer joue un rôle clé pour réduire le poids des pages et l'empreinte environnementale du service.</p>
+            </div>
+        </section>
+
+        <section class="objectives" aria-labelledby="role-title">
+            <div class="container">
+                <div class="radar-content">
+                    <div class="radar-visual">
+                        <img src="../assets/images/nubelson-fernandes-Yh2Y8avvPec-unsplash.webp" alt="Illustration d'une personne concevant une interface utilisateur." class="radar-image">
+                        <p style="font-size: 0.75rem; color: #666; margin-top: 0.5rem; text-align: center;">Photo by Nubelson Fernandes on Unsplash</p>
+                    </div>
+                    
+                    <div class="radar-explanation">
+                        <h2 id="role-title">Fiche d'Identité : UI Designer</h2>
+                        
+                        <h3>Mon Métier</h3>
+                        <p>Je réalise et conçois des interfaces utilisateurs via des maquettes. Je définis les composants à intégrer sur la page et autres éléments graphiques.</p>
+                        
+                        <h3 style="margin-top: 2rem;">Mon Métier et l'Écoconception</h3>
+                        <p>Dans une approche Numérique Responsable, je dois inscrire l'écoconception dès la phase de conception du service lorsque je transcris le besoin exprimé en réalisant des maquettes graphiques.</p>
+                        
+                        <h3 style="margin-top: 2rem;">Mes Missions Clés</h3>
+                        <ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6;">
+                                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                                Connaître les bonnes pratiques liées aux composants et aux éléments graphiques.
+                            </li>
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6;">
+                                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                                Produire des maquettes statiques en ayant appliqué ces bonnes pratiques.
+                            </li>
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6;">
+                                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                                Se coordonner avec les intégrateurs pour assurer une implémentation fidèle.
+                            </li>
+                            <li style="padding-left: 2rem; position: relative; margin-bottom: 0.75rem; line-height: 1.6;">
+                                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">✓</span>
+                                S'assurer de répondre de manière frugale aux besoins métier et éviter la sur-qualité.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="navigation-section" aria-labelledby="pratiques-title">
+            <div class="container">
+                <h2 id="pratiques-title">Explorer les Bonnes Pratiques UI</h2>
+                <p class="section-intro">Voici une sélection de bonnes pratiques d'écoconception devant être mises en place par un UI Designer lors de la création de maquettes. Certaines seront reprises par les intégrateurs pour une implémentation optimale.</p>
+                
+                <div class="nav-grid">
+                    <article class="nav-card">
+                        <h3><a href="lazy-loading.html">Utiliser le Lazy Loading</a></h3>
+                        <p>Charger les médias uniquement lorsqu'ils deviennent visibles pour l'utilisateur.</p>
+                    </article>
+                    
+                    <article class="nav-card">
+                        <h3><a href="formats-images.html">Fournir des formats d'image optimisés</a></h3>
+                        <p>Utiliser des formats modernes comme WebP ou AVIF pour réduire drastiquement le poids.</p>
+                    </article>
+                    
+                    <article class="nav-card">
+                        <h3><a href="dimensions-images.html">Minimiser les dimensions des images</a></h3>
+                        <p>Adapter la taille et la résolution de l'image à sa taille d'affichage réelle.</p>
+                    </article>
+                    
+                    <article class="nav-card">
+                        <h3><a href="webfonts.html">Limiter et optimiser les Webfonts</a></h3>
+                        <p>Réduire le nombre de polices et utiliser les formats WOFF2 pour un chargement rapide.</p>
+                    </article>
+                    
+                    <article class="nav-card">
+                        <h3><a href="defilement-infini.html">Éviter le défilement infini</a></h3>
+                        <p>Remplacer le "infinite scroll" par une pagination ou un bouton "Charger plus".</p>
+                    </article>
+                    
+                    <article class="nav-card">
+                        <h3><a href="optimisation-medias.html">Optimiser les contenus médias (Vidéos/Audios)</a></h3>
+                        <p>Désactiver l'autoplay, compresser les fichiers et afficher leur durée.</p>
+                    </article>
+                    
+                    <article class="nav-card">
+                        <h3><a href="lecture-video.html">Arrêter la lecture vidéo hors cadre</a></h3>
+                        <p>Mettre en pause automatiquement les vidéos qui ne sont plus visibles à l'écran.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section" aria-labelledby="navigation-title">
+            <div class="container">
+                <h2 id="navigation-title" class="visually-hidden">Navigation entre les sections</h2>
+                <div class="cta-buttons" style="justify-content: space-between; max-width: 900px; margin: 0 auto;">
+                    <a href="../pratiques-ux/carrousels.html" class="btn-secondary">
+                        ← Section Précédente : Pratiques UX
+                    </a>
+                    <a href="lazy-loading.html" class="btn-primary">
+                        Commencer : Lazy Loading →
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>Ce Starter Kit est une ressource générique et open source pour promouvoir l'écoconception numérique auprès des designers UX/UI et des intégrateurs.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contribuer</h3>
+                <p>Rejoignez-nous sur GitHub pour améliorer ce guide et partager vos bonnes pratiques.</p>
+                <a href="https://github.com/France-Travail" class="github-link" rel="external noopener noreferrer">
+                    Contribuer sur GitHub
+                    <span class="visually-hidden">(nouvelle fenêtre)</span>
+                </a>
+            </div>
+            <div class="footer-section">
+                <h3>Ressources</h3>
+                <nav aria-label="Liens ressources">
+                    <ul>
+                        <li><a href="../demarche-outils/outils.html">Outils et ressources</a></li>
+                        <li><a href="https://www.greenit.fr/" rel="external noopener noreferrer">GreenIT.fr <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://collectif.greenit.fr/" rel="external noopener noreferrer">Collectif Green IT <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://ecoresponsable.numerique.gouv.fr/" rel="external noopener noreferrer">MiNumEco <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 – Starter Kit Écoconception Numérique – <br>
+Contenus publiés sous licence <br>
+  <br>
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+  <br>
+  .</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

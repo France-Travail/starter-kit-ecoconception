@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Réduisez drastiquement le poids de vos pages en utilisant des formats d'image modernes comme AVIF et WebP.">
+    <meta name="keywords" content="écoconception, formats image, AVIF, WebP, optimisation images, numérique responsable">
+    <meta name="author" content="France Travail">
+    <title>Formats d'Image Optimisés (WebP, AVIF) - Écoconception UI - Starter Kit</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header role="banner">
+        <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+            <div class="nav-container">
+                <a href="../index.html" class="logo-link" title="Retour à l'accueil">
+                    <img src="../assets/images/logo.svg" alt="Conception Responsable de Services Numériques - Accueil" class="logo" width="200" height="40">
+                </a>
+                
+                <button class="nav-toggle" aria-label="Menu de navigation" aria-expanded="false" aria-controls="nav-links">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-impacts">
+                            Impacts
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-impacts" aria-label="Sous-menu Impacts">
+                            <li><a href="../impacts/empreinte-environnementale.html">Empreinte environnementale</a></li>
+                            <li><a href="../impacts/empreinte-societale.html">Empreinte sociétale</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-principes">
+                            Principes
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-principes" aria-label="Sous-menu Principes">
+                            <li><a href="../principes/definition.html">Définition</a></li>
+                            <li><a href="../principes/benefices.html">Bénéfices</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-bonnes-pratiques">
+                            Bonnes Pratiques
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-bonnes-pratiques" aria-label="Sous-menu Bonnes Pratiques">
+                            <li><a href="../bonnes-pratiques/strategie-pilotage.html">Stratégie & Pilotage</a></li>
+                            <li><a href="../bonnes-pratiques/ux.html">UX Design</a></li>
+                            <li><a href="../bonnes-pratiques/ui.html">UI Design</a></li>
+                            <li><a href="../bonnes-pratiques/developpement.html">Développement</a></li>
+                            <li><a href="../bonnes-pratiques/architecture.html">Architecture</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-mise-en-oeuvre">
+                            Mise en Œuvre
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-mise-en-oeuvre" aria-label="Sous-menu Mise en Œuvre">
+                            <li><a href="../mise-en-oeuvre/lancer-demarche.html">Lancer la démarche</a></li>
+                            <li><a href="../mise-en-oeuvre/outils-ressources.html">Outils & Ressources</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Section 1 : Titre et Introduction -->
+        <section class="hero" aria-labelledby="page-title">
+            <div class="hero-content">
+                
+                <h1 id="page-title">Fournir des Formats d'Image Optimisés</h1>
+                <p class="section-intro">L'objectif est d'optimiser le poids des composants de type image, qui sont souvent les plus lourds sur une page, afin de réduire la consommation globale du service.</p>
+            </div>
+        </section>
+
+        <!-- Section 2 : Le Principe -->
+        <section class="content-section" aria-labelledby="principe-title">
+            <div class="container">
+                <h2 id="principe-title">Objectif : Réduire le poids sans dégrader la qualité</h2>
+                <p>Pour limiter l'impact des images sur un service, il est crucial d'utiliser les formats modernes <strong>AVIF</strong> et <strong>WebP</strong>.</p>
+                <p>Ceux-ci sont beaucoup plus légers que les formats historiques (JPG, PNG) pour une qualité d'image équivalente ou supérieure.</p>
+                <p>Des outils de conversion (comme Convertio ou Squoosh) permettent de modifier les formats facilement.</p>
+            </div>
+        </section>
+
+        <!-- Section 3 : Comparaison Concrète -->
+        <section class="stats-section" aria-labelledby="comparaison-title">
+            <div class="container">
+                <h2 id="comparaison-title">Exemple de Gain</h2>
+                <div class="stats-grid" style="grid-template-columns: 1fr 1fr 1fr; align-items: center;">
+                    <!-- Carte 1 : L'Original (JPG) -->
+                    <div class="stat-card" style="background-color: var(--bg-tertiary);">
+                        <div class="stat-number" style="font-size: 2rem;">Image au format JPG</div>
+                        <p class="stat-label">(Créé en 1992)</p>
+                        <div class="stat-number" style="color: #c0392b;">165 ko</div>
+                    </div>
+                    
+                    <!-- Carte 2 : L'Optimisé (AVIF) -->
+                    <div class="stat-card" style="background-color: var(--bg-tertiary);">
+                        <div class="stat-number" style="font-size: 2rem;">Image au format AVIF</div>
+                        <p class="stat-label">(Créé en 2021)</p>
+                        <div class="stat-number" style="color: var(--secondary-color);">20,7 ko</div>
+                    </div>
+                    
+                    <!-- Carte 3 : Le Gain -->
+                    <div class="stat-card" style="background-color: var(--secondary-color);">
+                        <div class="stat-number" style="color: #fff;">87,5 %</div>
+                        <h3 class="stat-label" style="color: #fff; font-size: 1.2rem;">du poids de l'image</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 : Mise en Œuvre -->
+        <section class="content-section" aria-labelledby="mise-en-oeuvre-title">
+            <div class="container">
+                <h2 id="mise-en-oeuvre-title" style="margin-top: var(--spacing-2xl);">Comment faire ?</h2>
+                <ul class="checklist" style="margin-top: var(--spacing-md);">
+                    <li><strong>UI Designers :</strong> Exporter si possible les images dans ces formats ou le spécifier aux intégrateurs.</li>
+                    <li><strong>Intégrateurs :</strong> Utiliser la balise <code>&lt;picture&gt;</code> en HTML pour proposer plusieurs formats. Le navigateur choisira le format le plus moderne qu'il supporte (AVIF, puis WebP, puis JPG en dernier recours).</li>
+                </ul>
+
+                <div class="code-block">
+                    <pre><code>&lt;picture&gt;
+    &lt;!-- Le navigateur essaie d'abord de charger l'AVIF --&gt;
+    &lt;source srcset="image.avif" type="image/avif"&gt;
+    &lt;!-- S'il ne peut pas, il essaie le WebP --&gt;
+    &lt;source srcset="image.webp" type="image/webp"&gt;
+    &lt;!-- En dernier recours, il charge le JPG --&gt;
+    &lt;img src="image.jpg" alt="..."&gt;
+&lt;/picture&gt;</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 : Navigation de Page -->
+        <section class="navigation-section" aria-label="Navigation entre les pages">
+            <div class="container">
+                <div class="page-navigation">
+                    <a href="dimensions-images.html" class="btn-secondary">← Page Précédente : Dimensions des Images</a>
+                    <a href="webfonts.html" class="btn-primary">Page Suivante : Limiter les Webfonts →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>Ce guide pratique de conception responsable est un projet open source porté par France Travail pour promouvoir des pratiques numériques plus durables.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contribuer</h3>
+                <p>Rejoignez-nous sur GitHub pour améliorer ce guide et partager vos bonnes pratiques.</p>
+                <a href="https://github.com/France-Travail" class="github-link" rel="external noopener noreferrer">
+                    Contribuer sur GitHub
+                    <span class="visually-hidden">(nouvelle fenêtre)</span>
+                </a>
+            </div>
+            <div class="footer-section">
+                <h3>Ressources</h3>
+                <nav aria-label="Liens ressources">
+                    <ul>
+                        <li><a href="../mise-en-oeuvre/outils-ressources.html">Outils et ressources</a></li>
+                        <li><a href="https://www.greenit.fr/" rel="external noopener noreferrer">GreenIT.fr <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://collectif.greenit.fr/" rel="external noopener noreferrer">Collectif Green IT <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 – Starter Kit Écoconception Numérique – <br>
+Contenus publiés sous licence <br>
+  <br>
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+  <br>
+  .</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

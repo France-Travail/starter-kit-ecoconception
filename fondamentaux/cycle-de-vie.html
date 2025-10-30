@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="L'écoconception s'applique à chaque étape : conception, réalisation, intégration, support, utilisation et décommissionnement.">
+    <meta name="keywords" content="écoconception, cycle de vie, conception, réalisation, intégration, support, décommissionnement">
+    <meta name="author" content="Starter Kit Écoconception">
+    <title>Le Cycle de Vie d'un Service Numérique - Starter Kit</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header role="banner">
+        <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+            <div class="nav-container">
+                <a href="../index.html" class="logo-link" title="Retour à l'accueil">
+                    <img src="../assets/images/logo.svg" alt="Starter Kit de l'Écoconception Numérique - Accueil" class="logo" width="200" height="40">
+                </a>
+                
+                <button class="nav-toggle" aria-label="Menu de navigation" aria-expanded="false" aria-controls="nav-links">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-fondamentaux" aria-current="page">
+                            Fondamentaux
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-fondamentaux" aria-label="Sous-menu Fondamentaux">
+                            <li><a href="definition.html">Définition</a></li>
+                            <li><a href="pourquoi.html">Pourquoi Écoconcevoir ?</a></li>
+                            <li><a href="cycle-de-vie.html" aria-current="page">Cycle de Vie</a></li>
+                            <li><a href="roles.html">Rôles de l'Équipe</a></li>
+                            <li><a href="exemples.html">Exemples</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-pratiques-ux">
+                            Pratiques UX
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-pratiques-ux" aria-label="Sous-menu Pratiques UX">
+                            <li><a href="../pratiques-ux/fonctionnalites-essentielles.html">Fonctionnalités Essentielles</a></li>
+                            <li><a href="../pratiques-ux/profils-utilisateurs.html">Profils Utilisateurs</a></li>
+                            <li><a href="../pratiques-ux/mobile-first.html">Mobile First</a></li>
+                            <li><a href="../pratiques-ux/responsive.html">Responsive Design</a></li>
+                            <li><a href="../pratiques-ux/parcours-simple.html">Parcours Simple</a></li>
+                            <li><a href="../pratiques-ux/recherche-interne.html">Recherche Interne</a></li>
+                            <li><a href="../pratiques-ux/notifications.html">Notifications</a></li>
+                            <li><a href="../pratiques-ux/carrousels.html">Carrousels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-pratiques-ui">
+                            Pratiques UI & Intégration
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-pratiques-ui" aria-label="Sous-menu Pratiques UI">
+                            <li><a href="../pratiques-ui/lazy-loading.html">Lazy Loading</a></li>
+                            <li><a href="../pratiques-ui/defilement-infini.html">Défilement Infini</a></li>
+                            <li><a href="../pratiques-ui/optimisation-medias.html">Optimisation des Médias</a></li>
+                            <li><a href="../pratiques-ui/lecture-video.html">Lecture Vidéo</a></li>
+                            <li><a href="../pratiques-ui/dimensions-images.html">Dimensions des Images</a></li>
+                            <li><a href="../pratiques-ui/formats-images.html">Formats d'Images</a></li>
+                            <li><a href="../pratiques-ui/webfonts.html">Webfonts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-demarche-outils">
+                            Démarche & Outils
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-demarche-outils" aria-label="Sous-menu Démarche et Outils">
+                            <li><a href="../demarche-outils/approches.html">Approches</a></li>
+                            <li><a href="../demarche-outils/processus.html">Processus</a></li>
+                            <li><a href="../demarche-outils/outils.html">Outils</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content"><section class="content-section">
+            <div class="container">
+                <h1>L'Écoconception à chaque Étape du Cycle de Vie</h1>
+                <p class="section-intro">L'écoconception n'est pas une action unique, mais une philosophie appliquée tout au long de la vie d'un service numérique, de sa première idée jusqu'à sa fin de vie.</p>
+            </div>
+        </section>
+
+        <section class="navigation-section" aria-labelledby="phases-title">
+            <div class="container">
+                <h2 id="phases-title">Les 6 Phases Clés</h2>
+                
+                <div class="usage-steps" style="max-width: 900px; margin: 2rem auto;">
+                    <div style="position: relative; padding-left: 3rem; margin-bottom: 2rem;">
+                        <span style="position: absolute; left: 0; top: 0; font-size: 2rem; display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; background: var(--primary-color); color: white; border-radius: 50%; font-weight: 700;">✏️</span>
+                        <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem; font-size: 1.3rem;">1. Conception</h3>
+                        <p style="line-height: 1.6; color: var(--text-secondary);">Définition des besoins, parcours utilisateurs, architecture fonctionnelle. C'est la phase la plus critique pour intégrer l'écoconception.</p>
+                    </div>
+                    
+                    <div style="position: relative; padding-left: 3rem; margin-bottom: 2rem;">
+                        <span style="position: absolute; left: 0; top: 0; font-size: 2rem; display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; background: var(--primary-color); color: white; border-radius: 50%; font-weight: 700;">💻</span>
+                        <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem; font-size: 1.3rem;">2. Réalisation</h3>
+                        <p style="line-height: 1.6; color: var(--text-secondary);">Développement, codage des fonctionnalités et des interfaces selon les principes d'écoconception définis.</p>
+                    </div>
+                    
+                    <div style="position: relative; padding-left: 3rem; margin-bottom: 2rem;">
+                        <span style="position: absolute; left: 0; top: 0; font-size: 2rem; display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; background: var(--primary-color); color: white; border-radius: 50%; font-weight: 700;">🔧</span>
+                        <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem; font-size: 1.3rem;">3. Intégration et Tests</h3>
+                        <p style="line-height: 1.6; color: var(--text-secondary);">Assemblage des différents composants et validation du bon fonctionnement, y compris des performances énergétiques.</p>
+                    </div>
+                    
+                    <div style="position: relative; padding-left: 3rem; margin-bottom: 2rem;">
+                        <span style="position: absolute; left: 0; top: 0; font-size: 2rem; display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; background: var(--primary-color); color: white; border-radius: 50%; font-weight: 700;">🛠️</span>
+                        <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem; font-size: 1.3rem;">4. Support</h3>
+                        <p style="line-height: 1.6; color: var(--text-secondary);">Maintenance corrective et évolutive du service après sa mise en production, en préservant les objectifs d'écoconception.</p>
+                    </div>
+                    
+                    <div style="position: relative; padding-left: 3rem; margin-bottom: 2rem;">
+                        <span style="position: absolute; left: 0; top: 0; font-size: 2rem; display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; background: var(--primary-color); color: white; border-radius: 50%; font-weight: 700;">📱</span>
+                        <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem; font-size: 1.3rem;">5. Utilisation</h3>
+                        <p style="line-height: 1.6; color: var(--text-secondary);">Phase d'exploitation du service par les utilisateurs finaux (consommation de ressources, énergie, données).</p>
+                    </div>
+                    
+                    <div style="position: relative; padding-left: 3rem; margin-bottom: 2rem;">
+                        <span style="position: absolute; left: 0; top: 0; font-size: 2rem; display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; background: var(--primary-color); color: white; border-radius: 50%; font-weight: 700;">♻️</span>
+                        <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem; font-size: 1.3rem;">6. Décommissionnement / Remploi</h3>
+                        <p style="line-height: 1.6; color: var(--text-secondary);">Fin de vie du service, archivage, suppression des données et réutilisation éventuelle de composants.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section" aria-labelledby="stat-title">
+            <div class="container" style="text-align: center;">
+                <h2 id="stat-title" class="visually-hidden">Statistique clé sur l'écoconception</h2>
+                <div style="max-width: 600px; margin: 0 auto; padding: 3rem 2rem; background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%); border-radius: var(--border-radius); box-shadow: var(--shadow-lg);">
+                    <div style="font-size: 5rem; font-weight: 700; margin-bottom: 1rem; color: white;">80<span style="font-size: 3rem;">%</span></div>
+                    <p style="font-size: 1.3rem; margin: 0; color: white; line-height: 1.6;">des gains ont lieu au moment de la <strong>conception</strong>, et même avant !</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section" aria-labelledby="navigation-title">
+            <div class="container">
+                <h2 id="navigation-title" class="visually-hidden">Navigation entre les pages</h2>
+                <div class="cta-buttons" style="justify-content: space-between; max-width: 900px; margin: 0 auto;">
+                    <a href="pourquoi.html" class="btn-secondary">
+                        ← Page Précédente : Pourquoi Écoconcevoir ?
+                    </a>
+                    <a href="roles.html" class="btn-primary">
+                        Page Suivante : Rôles de l'Équipe →
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>Ce Starter Kit est une ressource générique et open source pour promouvoir l'écoconception numérique auprès des designers UX/UI et des intégrateurs.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contribuer</h3>
+                <p>Rejoignez-nous sur GitHub pour améliorer ce guide et partager vos bonnes pratiques.</p>
+                <a href="https://github.com/France-Travail" class="github-link" rel="external noopener noreferrer">
+                    Contribuer sur GitHub
+                    <span class="visually-hidden">(nouvelle fenêtre)</span>
+                </a>
+            </div>
+            <div class="footer-section">
+                <h3>Ressources</h3>
+                <nav aria-label="Liens ressources">
+                    <ul>
+                        <li><a href="../demarche-outils/outils.html">Outils et ressources</a></li>
+                        <li><a href="https://www.greenit.fr/" rel="external noopener noreferrer">GreenIT.fr <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://collectif.greenit.fr/" rel="external noopener noreferrer">Collectif Green IT <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://ecoresponsable.numerique.gouv.fr/" rel="external noopener noreferrer">MiNumEco <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 – Starter Kit Écoconception Numérique – <br>
+Contenus publiés sous licence <br>
+  <br>
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+  <br>
+  .</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les outils (Lighthouse, Green IT Analysis) et les ressources (référentiel, radar) pour auditer et piloter votre démarche d'écoconception.">
+    <meta name="keywords" content="écoconception, outils, Lighthouse, Green IT Analysis, diagnostic, radar de maturité, numérique responsable">
+    <meta name="author" content="France Travail">
+    <title>Outils & Ressources - Démarche Écoconception - Starter Kit</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header role="banner">
+        <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+            <div class="nav-container">
+                <a href="../index.html" class="logo-link" title="Retour à l'accueil">
+                    <img src="../assets/images/logo.svg" alt="Conception Responsable de Services Numériques - Accueil" class="logo" width="200" height="40">
+                </a>
+                
+                <button class="nav-toggle" aria-label="Menu de navigation" aria-expanded="false" aria-controls="nav-links">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-impacts">
+                            Impacts
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-impacts" aria-label="Sous-menu Impacts">
+                            <li><a href="../impacts/empreinte-environnementale.html">Empreinte environnementale</a></li>
+                            <li><a href="../impacts/empreinte-societale.html">Empreinte sociétale</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-principes">
+                            Principes
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-principes" aria-label="Sous-menu Principes">
+                            <li><a href="../principes/definition.html">Définition</a></li>
+                            <li><a href="../principes/benefices.html">Bénéfices</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-bonnes-pratiques">
+                            Bonnes Pratiques
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-bonnes-pratiques" aria-label="Sous-menu Bonnes Pratiques">
+                            <li><a href="../bonnes-pratiques/strategie-pilotage.html">Stratégie & Pilotage</a></li>
+                            <li><a href="../bonnes-pratiques/ux.html">UX Design</a></li>
+                            <li><a href="../bonnes-pratiques/ui.html">UI Design</a></li>
+                            <li><a href="../bonnes-pratiques/developpement.html">Développement</a></li>
+                            <li><a href="../bonnes-pratiques/architecture.html">Architecture</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="menu-mise-en-oeuvre">
+                            Mise en Œuvre
+                            <span class="dropdown-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="menu-mise-en-oeuvre" aria-label="Sous-menu Mise en Œuvre">
+                            <li><a href="../mise-en-oeuvre/lancer-demarche.html">Lancer la démarche</a></li>
+                            <li><a href="../mise-en-oeuvre/outils-ressources.html">Outils & Ressources</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Section 1 : Titre et Introduction -->
+        <section class="hero" aria-labelledby="page-title">
+            <div class="hero-content">
+                <nav aria-label="Fil d'Ariane" class="breadcrumb">
+                    <a href="../index.html">Accueil</a> &gt; 
+                    <a href="index.html">Démarche & Outils</a> &gt; 
+                    <span aria-current="page">Outils & Ressources</span>
+                </nav>
+                <h1 id="page-title">Les Outils de Diagnostic et de Suivi</h1>
+                <p class="section-intro">Pour mesurer l'impact de vos services et suivre vos progrès, il est essentiel de s'appuyer sur des outils concrets. Ces outils sont à utiliser tout au long de la démarche.</p>
+            </div>
+        </section>
+
+        <!-- Section 2 : Les Outils de Diagnostic -->
+        <section class="content-section" aria-labelledby="diagnostic-title">
+            <div class="container">
+                <h2 id="diagnostic-title">Outils de Diagnostic Technique</h2>
+                <p>Ces outils vous aident à auditer vos services existants (approche "Stock") ou à valider vos nouveaux services (approche "Flux").</p>
+                
+                <div class="metrics-grid" style="margin-top: var(--spacing-lg);">
+                    <!-- Carte 1 : Lighthouse -->
+                    <div class="metric-card">
+                        <span class="metric-icon" aria-hidden="true">💡</span>
+                        <h4>Lighthouse</h4>
+                        <p>Outil intégré aux navigateurs (Chrome/Edge) qui fournit un score de performance, incluant des métriques clés (poids, temps de chargement...).</p>
+                    </div>
+                    
+                    <!-- Carte 2 : Green IT Analysis -->
+                    <div class="metric-card">
+                        <span class="metric-icon" aria-hidden="true">♻️</span>
+                        <h4>Green IT Analysis</h4>
+                        <p>Une extension de navigateur qui analyse les pages et fournit un "EcoIndex" (score de A à G) basé sur la complexité, le poids et le nombre de requêtes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 : Les Outils de Cadrage et de Référence -->
+        <section class="content-section" aria-labelledby="cadrage-title">
+            <div class="container">
+                <h2 id="cadrage-title">Outils de Cadrage et de Référence</h2>
+                <p>Au-delà du diagnostic technique, ces ressources vous aident à cadrer et diffuser votre démarche.</p>
+                
+                <div class="metrics-grid" style="margin-top: var(--spacing-lg);">
+                    <!-- Carte 1 : Radar de Maturité -->
+                    <div class="metric-card">
+                        <span class="metric-icon" aria-hidden="true">🗺️</span>
+                        <h4>Radar de Maturité</h4>
+                        <p>Un outil d'auto-évaluation pour situer votre équipe sur les différentes thématiques de l'écoconception.</p>
+                    </div>
+                    
+                    <!-- Carte 2 : Référentiel d'Écoconception -->
+                    <div class="metric-card">
+                        <span class="metric-icon" aria-hidden="true">📚</span>
+                        <h4>Référentiel / Espace Documentaire</h4>
+                        <p>Une base de connaissances (comme ce site !) qui centralise la démarche, les bonnes pratiques, les formations et les contacts.</p>
+                    </div>
+                    
+                    <!-- Carte 3 : Estimation RSE -->
+                    <div class="metric-card">
+                        <span class="metric-icon" aria-hidden="true">⚖️</span>
+                        <h4>Estimation RSE d'une initiative</h4>
+                        <p>Une démarche pour estimer l'impact (coût environnemental, social) d'une nouvelle fonctionnalité *avant* son développement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 : Conclusion - Appel à l'Action -->
+        <section class="cta-section" style="margin-top: var(--spacing-2xl);" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 id="cta-title">Et si vous vous lanciez maintenant ?</h2>
+                    <p>Vous avez maintenant les clés pour comprendre les enjeux, les bonnes pratiques et la démarche. N'hésitez pas à contacter l'équipe Numérique Responsable ou RSE de votre organisation pour vous accompagner.</p>
+                    <div class="cta-buttons">
+                        <a href="../index.html" class="btn-primary">Retour à l'accueil</a>
+                        <a href="../pratiques-ux/index.html" class="btn-secondary">Revoir les pratiques UX</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 : Navigation de Page -->
+        <section class="navigation-section" aria-label="Navigation entre les pages">
+            <div class="container">
+                <div class="page-navigation">
+                    <a href="processus.html" class="btn-secondary">← Page Précédente : Le Processus d'Intégration</a>
+                    <a href="../index.html" class="btn-primary">Fin : Retour à l'Accueil →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>Ce guide pratique de conception responsable est un projet open source porté par France Travail pour promouvoir des pratiques numériques plus durables.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contribuer</h3>
+                <p>Rejoignez-nous sur GitHub pour améliorer ce guide et partager vos bonnes pratiques.</p>
+                <a href="https://github.com/France-Travail" class="github-link" rel="external noopener noreferrer">
+                    Contribuer sur GitHub
+                    <span class="visually-hidden">(nouvelle fenêtre)</span>
+                </a>
+            </div>
+            <div class="footer-section">
+                <h3>Ressources</h3>
+                <nav aria-label="Liens ressources">
+                    <ul>
+                        <li><a href="../mise-en-oeuvre/outils-ressources.html">Outils et ressources</a></li>
+                        <li><a href="https://www.greenit.fr/" rel="external noopener noreferrer">GreenIT.fr <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                        <li><a href="https://collectif.greenit.fr/" rel="external noopener noreferrer">Collectif Green IT <span class="visually-hidden">(nouvelle fenêtre)</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 – Starter Kit Écoconception Numérique – <br>
+Contenus publiés sous licence <br>
+  <br>
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+  <br>
+  .</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
