@@ -1,6 +1,7 @@
 Starter Kit Écoconception Numérique (UX/UI)
 
 Ce site web est un guide de sensibilisation et un starter kit dédié à l'écoconception des services numériques. Il est spécifiquement conçu pour les designers UX, les designers UI et les intégrateurs.
+Il est consultable en ligne à l'adresse : https://france-travail.github.io/starter-kit-ecoconception/ 
 
 Objectif
 
