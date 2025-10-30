@@ -18,7 +18,7 @@ L'objectif de ce site est de :
 ## Origine du Contenu
 
 Le contenu de ce site est une adaptation web générique et réutilisable
-du "Starter Kit Ecoconception UX-UI_2025.pptx".
+du "Starter Kit Ecoconception UX-UI_2025" de France Travail.
 
 Tout branding spécifique à une organisation a été retiré pour en faire
 une ressource universelle, applicable par toute équipe ou entreprise
@@ -41,6 +41,58 @@ en quatre sections principales :
 -   `/demarche-outils/` : Comment mettre en œuvre la démarche ?
     (Approches Stock/Flux, Processus, Outils de diagnostic...).
 
+Il suit une arborescence de fichiers simple et logique pour faciliter la navigation et les contributions.
+
+```text
+`/`
+
+`├── index.html`
+`│ ├── fondamentaux/`
+`│ ├── index.html`
+`│ ├── definition.html`
+`│ ├── pourquoi.html`
+`│ ├── cycle-de-vie.html`
+`│ ├── roles.html`
+`│ └── exemples.html`
+`├── pratiques-ux/`
+`│ ├── index.html`
+`│ ├── fonctionnalites-essentielles.html`
+`│ ├── profils-utilisateurs.html`
+`│ ├── mobile-first.html`
+`│ ├── responsive.html`
+`│ ├── parcours-simple.html`
+`│ ├── recherche-interne.html`
+`│ ├── notifications.html`
+`│ └── carrousels.html`
+`├── pratiques-ui/`
+`│ ├── index.html`
+`│ ├── lazy-loading.html`
+`│ ├── defilement-infini.html`
+`│ ├── optimisation-medias.html`
+`│ ├── lecture-video.html`
+`│ ├── dimensions-images.html`
+`│ ├── formats-images.html`
+`│ └── webfonts.html`
+`├── demarche-outils/`
+`│ ├── index.html`
+`│ ├── approches.html`
+`│ ├── processus.html`
+`│ └── outils.html`
+`└── assets/`
+`│ ├── css/`
+`│ └── style.css`
+`│ ├── js/`
+`│ └── main.js`
+`│ └── images/`
+`|     ├── icon-feuille.webp`
+`|     ├── icon-cible.webp`
+`|     ├── icon-benefice-env.webp`
+`|     ├── icon-benefice-cout.webp`
+`|     ├── schema-cycle-vie.webp`
+```
+
+    
+
 ## Comment l'utiliser
 
 Ce projet est entièrement statique. Il peut être :
@@ -57,3 +109,7 @@ Ce projet est entièrement statique. Il peut être :
 Si vous voyez des améliorations, des corrections ou de nouvelles bonnes
 pratiques à ajouter, n'hésitez pas à ouvrir une Pull Request ou une
 Issue.
+
+## Licence
+
+Ce projet est distribué sous la **Licence MIT**. Consultez le fichier `LICENSE` pour plus d'informations.
