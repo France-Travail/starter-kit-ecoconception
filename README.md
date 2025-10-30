@@ -1,50 +1,59 @@
-Starter Kit Écoconception Numérique (UX/UI)
+# Starter Kit Écoconception Numérique (UX/UI)
 
-Ce site web est un guide de sensibilisation et un starter kit dédié à l'écoconception des services numériques. Il est spécifiquement conçu pour les designers UX, les designers UI et les intégrateurs.
-Il est consultable en ligne à l'adresse : https://france-travail.github.io/starter-kit-ecoconception/ 
+Ce site web est un starter kit dédié à
+l'écoconception des services numériques. Il est spécifiquement conçu
+pour les designers UX, les designers UI et les intégrateurs.
 
-Objectif
+## Objectif
 
 L'objectif de ce site est de :
 
-Sensibiliser aux enjeux et aux impacts du numérique.
+-   Sensibiliser aux enjeux et aux impacts du numérique.
+-   Définir les fondamentaux de l'écoconception.
+-   Fournir des bonnes pratiques concrètes et priorisées pour les rôles
+    UX et UI.
+-   Présenter une démarche d'intégration et les outils de diagnostic
+    courants.
 
-Définir les fondamentaux de l'écoconception.
+## Origine du Contenu
 
-Fournir des bonnes pratiques concrètes et priorisées pour les rôles UX et UI.
+Le contenu de ce site est une adaptation web générique et réutilisable
+du "Starter Kit Ecoconception UX-UI_2025.pptx".
 
-Présenter une démarche d'intégration et les outils de diagnostic courants.
+Tout branding spécifique à une organisation a été retiré pour en faire
+une ressource universelle, applicable par toute équipe ou entreprise
+souhaitant s'initier à l'écoconception.
 
+## Structure du Site
 
-Origine du Contenu
+Le site est un ensemble de fichiers statiques (HTML, CSS, JS) organisés
+en quatre sections principales :
 
-Le contenu de ce site est une adaptation web générique et réutilisable du "Starter Kit Ecoconception UX-UI_2025.pptx".
+-   `/index.html` : Page d'accueil et portail vers les sections.
+-   `/fondamentaux/` : Qu'est-ce que l'écoconception ? Pourquoi est-ce
+    important ? (Définition, Bénéfices, Cycle de vie, Rôles...).
+-   `/pratiques-ux/` : Bonnes pratiques spécifiques pour les UX
+    Designers (Fonctionnalités essentielles, Parcours simple, Mobile
+    first, Notifications...).
+-   `/pratiques-ui/` : Bonnes pratiques spécifiques pour les UI
+    Designers et Intégrateurs (Lazy loading, Formats d'image, Webfonts,
+    Optimisation des médias...).
+-   `/demarche-outils/` : Comment mettre en œuvre la démarche ?
+    (Approches Stock/Flux, Processus, Outils de diagnostic...).
 
-
-Structure du Site
-
-Le site est un ensemble de fichiers statiques (HTML, CSS, JS) organisés en quatre sections principales :
-
-/index.html : Page d'accueil et portail vers les sections.
-
-/fondamentaux/ : Qu'est-ce que l'écoconception ? Pourquoi est-ce important ? (Définition, Bénéfices, Cycle de vie, Rôles...).
-
-/pratiques-ux/ : Bonnes pratiques spécifiques pour les UX Designers (Fonctionnalités essentielles, Parcours simple, Mobile first, Notifications...).
-
-/pratiques-ui/ : Bonnes pratiques spécifiques pour les UI Designers et Intégrateurs (Lazy loading, Formats d'image, Webfonts, Optimisation des médias...).
-
-/demarche-outils/ : Comment mettre en œuvre la démarche ? (Approches Stock/Flux, Processus, Outils de diagnostic...).
-
-
-Comment l'utiliser
+## Comment l'utiliser
 
 Ce projet est entièrement statique. Il peut être :
 
-Consulté localement en ouvrant les fichiers .html dans votre navigateur.
+-   Consulté en ligne à l'adresse :
+    <https://france-travail.github.io/starter-kit-ecoconception/>
+-   Consulté localement en ouvrant les fichiers .html dans votre
+    navigateur.
+-   Hébergé sur n'importe quel serveur web ou service d'hébergement
+    statique.
 
-Hébergé sur n'importe quel serveur web ou service d'hébergement statique (GitHub Pages, Netlify, Vercel, etc.).
+## Contribution
 
-
-Contribution
-
-Si vous voyez des améliorations, des corrections ou de nouvelles bonnes pratiques à ajouter, n'hésitez pas à ouvrir une Pull Request ou une Issue.
+Si vous voyez des améliorations, des corrections ou de nouvelles bonnes
+pratiques à ajouter, n'hésitez pas à ouvrir une Pull Request ou une
+Issue.
