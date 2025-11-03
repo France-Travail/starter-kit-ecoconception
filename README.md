@@ -4,6 +4,9 @@ Ce site web est un starter kit dédié à
 l'écoconception des services numériques. Il est spécifiquement conçu
 pour les designers UX, les designers UI et les intégrateurs.
 
+
+Il est complémentaire au Référentiel d'écoconception, également disponible sur github <https://github.com/France-Travail/referentiel-ecoconception>, ainsi qu'au kit de sensibilisation à la conception écoresponsable <https://github.com/France-Travail/sensibilisation-conception-responsable>, aux formations à l'écoconception destinées aux équipes techniques <https://github.com/France-Travail/formation-ecoconception-dev/>,et aux équipes produit.
+
 ## Objectif
 
 L'objectif de ce site est de :
