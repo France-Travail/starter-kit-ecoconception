@@ -107,7 +107,7 @@ Ce projet est entièrement statique. Il peut être :
 ## Contribution
 
 Si vous voyez des améliorations, des corrections ou de nouvelles bonnes
-pratiques à ajouter, n'hésitez pas à ouvrir une Pull Request ou une
+pratiques à ajouter, n'hésitez pas à nous contacter @ <oss.00619@francetravail.fr>, ou ouvrir une Pull Request ou une
 Issue.
 
 ## Licence
